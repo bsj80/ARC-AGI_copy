@@ -259,8 +259,8 @@ function errorMsg(msg) {
     // Show the error display
     $('#error_display').show();
     
-    // Fade out the error display after 5 seconds
-    $('#error_display').fadeOut(5000);
+    // Fade out the error display after 10 seconds
+    $('#error_display').fadeOut(10000);
 }
 
 /**
@@ -283,6 +283,6 @@ function infoMsg(msg) {
     // Show the info display
     $('#info_display').show();
     
-    // Fade out the info display after 5 seconds
-    $('#info_display').fadeOut(5000);
+    // Fade out the info display after 10 seconds
+    $('#info_display').fadeOut(10000);
 }

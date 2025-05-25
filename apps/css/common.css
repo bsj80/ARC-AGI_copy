@@ -45,24 +45,24 @@
 }
 
 
-/*Symbol picker*/
+/* Color picker */
 
 .symbol_preview {
     width: 20px;
     height: 20px;
     float: left;
+    margin-right: 2px;
+}
+
+.selected-symbol-preview {
+    border: 1px solid darkgray;
 }
 
 .grid_size_field {
     width: 50px;
 }
 
-.selected-symbol-preview {
-    border: 2px solid orange;
-}
-
-
-/*Selectable*/
+/* Selecting pixels with mouse*/
 
 .ui-selected {
     background-image: url(../img/black-twill.png), url(../img/brushed-alum.png);

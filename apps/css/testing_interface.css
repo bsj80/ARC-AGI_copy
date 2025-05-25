@@ -1,6 +1,7 @@
 body {
     font-family: 'Open Sans', sans-serif;
     min-width: 1410px;
+    font-size: 12px; /* Set base font size to 12px */
 }
 
 #workspace {
